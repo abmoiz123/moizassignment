@@ -1,0 +1,526 @@
+* {
+    font-family: Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+#header-top{
+    background-color: rgb(49, 109, 195);
+    color: rgb(247, 248, 250);
+    text-align: center;
+}
+.p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.s:link, .s:visited {
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(247, 248, 250);
+}
+.bb {
+    color: gray;
+    font-size: 12px;
+    padding: 3px 8px 3px 8px;
+    cursor: pointer;
+}
+.slogo {
+    height: 55px;
+    width: 200px;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(247, 248, 250);
+    z-index: 1;
+}
+.carousel {
+    z-index: -1;
+}
+.spa {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.navbo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.down {
+    margin-left: 4px;
+}
+.navbo:link, .navbo:visited  {
+    background-color: rgb(49, 109, 195);
+    color: rgb(247, 248, 250);
+    border-radius: 25px;
+    padding: 6px 14px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+.dropbtn {
+    cursor: pointer;
+    color: rgb(50, 50, 50);
+    border-radius: 25px;
+    padding: 6px 14px;
+    text-align: center;
+    display: inline-block;
+}
+.dropbtn:hover {
+    color: rgb(50, 50, 50);
+    border-radius: 25px;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.dropbtn:link, .dropbtn:visited  {
+    color: rgb(50, 50, 50);
+    border-radius: 25px;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.dropbtn:hover {
+    color: rgb(247, 248, 250);
+    background-color: rgb(49, 109, 195);
+}
+.dropdown {
+    color: rgb(247, 248, 250);
+    display: inline-block;
+}
+.dropdown-content2:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown5:hover .dropdown-content2 {
+    display: block;
+}
+.dropdown5:hover .dropdown-content6 {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    max-width: 500px;
+    z-index: 1;
+}
+.dropdown-content2 {
+    border-radius: 0;
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+}
+.dropdown-content3 {
+    border-radius: 0;
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+}
+.dropdown-content6 {
+    border-radius: 0;
+    display: none;
+    position: absolute;
+    min-width: 300px;
+    z-index: 1;
+}
+.dropdown-content p {
+    margin: 0;
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    float: none;
+    color: rgb(100, 100, 100);
+    padding: 6px 9px;
+    display: block;
+}
+.dropdown-content a {
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    float: none;
+    color: rgb(100, 100, 100);
+    padding: 6px 9px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover, .dropdown-content p:hover {
+    cursor: pointer;
+    background-color: rgb(49, 109, 195);
+    color: rgb(247, 248, 250);
+    text-align: center;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.text-slide {
+  width:100%;
+}
+.text-slide- p {
+  animation: slide-left 10s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+}
+}
+
+to {
+    margin-left: 0%;
+    width: 100%;
+}
+.slide-text-line {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline;
+}
+.slide-text {
+    background-color: rgb(49, 109, 195);
+    padding: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.news {
+    color: rgb(0, 255, 0);
+    font-weight: 600;
+}
+.more-detail:link, .more-detail:visited {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+.text-slide {
+    color: rgb(247, 248, 250);
+    font-weight: 600;
+}
+.tex {
+    padding: 0;
+    background-color: yellow;
+    text-align: center;
+}
+#paragraph {
+    background-color: rgb(247, 248, 250);
+    text-align: center;
+}
+.para {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    line-height: 25px;
+    color: gray;
+    text-align: justify;
+}
+.space {
+    padding-bottom: 90px;
+}
+.introduction {
+    margin-top: 50px;
+    color: rgb(38, 85, 232);
+    font-weight: bolder;
+    display: inline-block;
+}
+.green {
+    color: rgb(66, 121, 0);
+    font-weight: bolder;
+    display: inline-block;
+}
+.saylaniicon {
+    display: inline-block;
+    width: 45px;
+}
+#medical {
+    text-align: center;
+    background-color: rgb(38, 85, 232);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.month {
+    margin: 30px 0 30px 0;
+    padding: 0;
+}
+.food {
+    width: 45px;
+}
+.num {
+    color: rgb(247, 248, 250);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 55px;
+}
+.one {
+    color: rgb(247, 248, 250);
+    font-weight: bold;
+    font-size: 14px;
+    display: inline;
+}
+.two {
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    font-size: 19px;
+    display: inline;
+}
+#doing {
+    text-align: center;
+    background-color: rgb(247, 248, 250);
+}
+.onl {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 7px 10px 15px 5px rgb(210, 210, 210);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.icon-line {
+    padding-bottom: 20px;
+}
+.sadqa {
+    width: 70px;
+}
+.online {
+    margin: 0;
+    text-align: center;
+    color: rgb(38, 85, 232);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 18px;    
+    padding-top: 20px;
+}
+.welfare {
+    padding-bottom: 30px;
+    width: auto;
+    justify-content: space-between;
+}
+.logo-line {
+    position: relative;
+    top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 37px;
+    height: 1px;
+    background-color: rgb(66, 121, 0);
+}
+#upcoming-projects {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.mission-line4 {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 50px;
+    border: 1px solid rgb(66, 121, 0);
+
+}
+.mission-line3 {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 50px;
+    border: 1px solid rgb(66, 121, 0);
+}
+.script-scroll {
+    padding-right: 90px;
+}
+.mission {
+    /* padding: 0; */
+    margin: 0;
+    color: rgb(49, 109, 195);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 25px;   
+}
+.mission-line {
+    position: relative;
+    bottom: 17px;
+    margin-left: 0;
+    width: 50px;
+    border: 1px solid rgb(66, 121, 0);
+}
+.hepatitis {
+    background-color: rgb(247, 248, 250);
+    margin: 10px 0 10px 0;
+}
+.hepatitis-pic {
+    margin: 0 15px 0 15px;
+}
+.hepatitis-pic2 {
+    position: relative;
+    top: 6px;
+    padding-top: 15px;
+    padding-bottom: 11px;
+    display: inline-block;
+    color: rgb(38, 85, 232);
+    font-weight: bolder;
+    font-size: 18px;   
+}
+.upcoming-script {
+    /* text-align: justify; */
+    color: grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.upcoming-script2:link, .upcoming-script2:visited {
+    text-decoration: none;
+    color: rgb(38, 85, 232);
+}
+.gallery2 {
+    padding: 0;
+    margin: 0;
+}
+.gallery {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: auto;
+    display: inline-block;
+} 
+.row1 {
+    align-items: center;
+    margin-bottom: 170px;
+}
+.rashan2 {
+    opacity: 1;
+    display: block;
+    width: 220px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.gallery:hover .rashan2 {
+    opacity: 0.1;
+    border-style: inset;
+    border-width: 7px;
+    border-color: black;
+}
+  
+.gallery:hover .middle {
+    opacity: 1;
+}
+.dot {
+    margin: 3px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(38, 85, 232);
+    border-radius: 50%;
+    display: inline-block;
+}
+.texto:link, .texto:visited {
+    text-decoration: none;
+    color: rgb(247, 248, 250);
+    font-size: 0.9rem;
+}
+.fabi {
+    margin-top: 8px;
+}
+#image-gallery {
+    text-align: center;
+}
+#footer1 {
+    background-color: rgb(37, 39, 46);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer3 {
+    padding-bottom: 10px;
+}
+.footer4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    color: rgb(190, 190, 190);
+}
+.phone {
+    color: rgb(190, 190, 190);
+    color: rgb(66, 121, 0);
+    margin: 0 4px 0 4px;
+}
+.checking {
+    padding-left: 10px;
+}
+.phone1 {
+    margin: 10px 0 10px 0;
+}
+.phone12 {
+    /* margin: 100px 0 10px 0; */
+    display: inline;
+}
+.phone11 {
+    display: inline;
+    margin-right: 15px;
+}
+.useful {    
+    position: relative;
+    bottom: 17px;
+    border: 1px solid rgb(66, 121, 0);
+    width: 55px;
+    margin: 0;
+}
+.useful2 {
+    border-color: rgb(100, 90, 80);
+}
+.useful3 {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(247, 248, 250);
+}
+.contact-us {
+    color: rgb(247, 248, 250);
+    position: relative;
+    bottom: 35px;
+    left: 14px;
+}
+.contact-us2 {
+    color: rgb(247, 248, 250);
+    position: relative;
+    bottom: 36px;
+    left: 38px;
+}
+.contact-us3 {
+    color: rgb(247, 248, 250);
+    position: relative;
+    bottom: 36px;
+    left: 59px;
+}
+.contact-us4 {
+    color: rgb(247, 248, 250);
+    position: relative;
+    bottom: 36px;
+    left: 82px;
+}
+#copy {
+    background-color: rgb(38, 85, 232);
+}
+.copyright {
+    margin-top: 10px;
+    color: rgb(247, 248, 250);
+    font-size: 13px;
+}
+.name {
+    color: rgb(247, 248, 250);
+    text-align: center;
+}
